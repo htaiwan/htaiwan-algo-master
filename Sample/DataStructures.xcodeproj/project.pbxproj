@@ -23,7 +23,10 @@
 /* Begin PBXBuildFile section */
 		0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822D21E86A5A0008D749 /* Stack.swift */; };
 		0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822F21E86AB20008D749 /* StackTestCase.swift */; };
-		43B455952243159600EEE5B8 /* ChallengeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B455932243146300EEE5B8 /* ChallengeTestCase.swift */; };
+		43B455952243159600EEE5B8 /* StackChallengeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B455932243146300EEE5B8 /* StackChallengeTestCase.swift */; };
+		43CB2D782249A2B90091EF27 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CB2D772249A2B90091EF27 /* Queue.swift */; };
+		43CB2D7B2249A6AF0091EF27 /* QueueTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CB2D792249A2DA0091EF27 /* QueueTestCase.swift */; };
+		43CB2D7D2249B3BA0091EF27 /* QueueChallengeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CB2D7C2249B3BA0091EF27 /* QueueChallengeTestCase.swift */; };
 		OBJ_26 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_39 /* DataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "DataStructures::DataStructures::Product" /* DataStructures.framework */; };
 /* End PBXBuildFile section */
@@ -48,7 +51,10 @@
 /* Begin PBXFileReference section */
 		0ABC822D21E86A5A0008D749 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		0ABC822F21E86AB20008D749 /* StackTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestCase.swift; sourceTree = "<group>"; };
-		43B455932243146300EEE5B8 /* ChallengeTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTestCase.swift; sourceTree = "<group>"; };
+		43B455932243146300EEE5B8 /* StackChallengeTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackChallengeTestCase.swift; sourceTree = "<group>"; };
+		43CB2D772249A2B90091EF27 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		43CB2D792249A2DA0091EF27 /* QueueTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueTestCase.swift; sourceTree = "<group>"; };
+		43CB2D7C2249B3BA0091EF27 /* QueueChallengeTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueChallengeTestCase.swift; sourceTree = "<group>"; };
 		"DataStructures::DataStructures::Product" /* DataStructures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DataStructures::DataStructuresTests::Product" /* DataStructuresTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -96,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				0ABC822D21E86A5A0008D749 /* Stack.swift */,
+				43CB2D772249A2B90091EF27 /* Queue.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -104,7 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				0ABC822F21E86AB20008D749 /* StackTestCase.swift */,
-				43B455932243146300EEE5B8 /* ChallengeTestCase.swift */,
+				43B455932243146300EEE5B8 /* StackChallengeTestCase.swift */,
+				43CB2D792249A2DA0091EF27 /* QueueTestCase.swift */,
+				43CB2D7C2249B3BA0091EF27 /* QueueChallengeTestCase.swift */,
 			);
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -172,6 +181,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = OBJ_5;
@@ -193,6 +203,7 @@
 			buildActionMask = 0;
 			files = (
 				0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */,
+				43CB2D782249A2B90091EF27 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +220,9 @@
 			buildActionMask = 0;
 			files = (
 				0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */,
-				43B455952243159600EEE5B8 /* ChallengeTestCase.swift in Sources */,
+				43CB2D7D2249B3BA0091EF27 /* QueueChallengeTestCase.swift in Sources */,
+				43B455952243159600EEE5B8 /* StackChallengeTestCase.swift in Sources */,
+				43CB2D7B2249A6AF0091EF27 /* QueueTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
