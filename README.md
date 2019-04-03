@@ -7,7 +7,7 @@ Share what I learned
 
   - [Stack](https://github.com/htaiwan/note-algo-master/blob/master/Stack.md)
   - Queue
-  - Sorting Algorithms
+  - [Sorting Algorithms](https://github.com/htaiwan/note-algo-master/blob/master/Sorting%20Algorithms.md)
   - Merge Sort
 
 - #### Trees
